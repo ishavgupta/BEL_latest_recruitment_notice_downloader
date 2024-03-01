@@ -1,0 +1,131 @@
+{
+  "id": "db475e6d-fc94-4d88-a4d6-8154dc6953c5",
+  "version": "2.0",
+  "name": "test1",
+  "url": "https://bel-india.in/",
+  "tests": [{
+    "id": "96bd75e2-e5bf-423d-8fc3-ffc1bc4e811c",
+    "name": "test1",
+    "commands": [{
+      "id": "bd378754-c5f2-4821-9808-da7f221d81c1",
+      "comment": "",
+      "command": "open",
+      "target": "https://bel-india.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59bb5c50-9d66-4d80-a2eb-e37384eb1958",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e343eec2-77d8-4368-a913-3c0f1d03a1b6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Recruitment - Advertisements",
+      "targets": [
+        ["linkText=Recruitment - Advertisements", "linkText"],
+        ["css=li:nth-child(9) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Recruitment - Advertisements')]", "xpath:link"],
+        ["xpath=//form[@id='aspnetForm']/div[3]/section/div/div/div[2]/div/nav/ul/li[9]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'CareersGridbind.aspx?MId=29&LId=1&subject=1&link=0&issnno=1&name=Recruitment - Advertisements')]", "xpath:href"],
+        ["xpath=//li[9]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Recruitment - Advertisements')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d1f2dc6-d3b1-4cec-941c-598cb76737cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_TopContent_chkTerm",
+      "targets": [
+        ["id=ctl00_TopContent_chkTerm", "id"],
+        ["name=ctl00$TopContent$chkTerm", "name"],
+        ["css=#ctl00_TopContent_chkTerm", "css:finder"],
+        ["xpath=//input[@id='ctl00_TopContent_chkTerm']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_TopContent_pnlTerms']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d12273ac-c509-4936-92fa-5a0e92687633",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_TopContent_btnSubmit",
+      "targets": [
+        ["id=ctl00_TopContent_btnSubmit", "id"],
+        ["name=ctl00$TopContent$btnSubmit", "name"],
+        ["css=#ctl00_TopContent_btnSubmit", "css:finder"],
+        ["xpath=//input[@id='ctl00_TopContent_btnSubmit']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_TopContent_pnlTerms']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ad49142-6276-4fe5-b6f6-002bbe423c5b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Web Advt- Dy. Engineer (On Short Term Basis)",
+      "targets": [
+        ["linkText=Web Advt- Dy. Engineer (On Short Term Basis)", "linkText"],
+        ["css=#ctl00_TopContent_gvbinddate_ctl11_lbl1 p:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Web Advt- Dy. Engineer (On Short Term Basis)')]", "xpath:link"],
+        ["xpath=//span[@id='ctl00_TopContent_gvbinddate_ctl11_lbl1']/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Documentviews.aspx?fileName=Web Advt Dy Engineer On Short Term Basis Extended-28-02-2024.pdf')]", "xpath:href"],
+        ["xpath=//tr[11]/td[3]/span/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Web Advt- Dy. Engineer (On Short Term Basis)')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8277",
+      "windowTimeout": 2000
+    }, {
+      "id": "bb4e568c-daf6-40e9-a4e4-8f7c8c465212",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c69a9bdd-20ac-4bf4-88d5-710fceece1a0",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8277}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdca6d9a-a4f1-4061-b60f-b95d47faced6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae588003-909e-4117-b9b5-4fb7bb577253",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71c37b03-efbf-4d9b-99cb-be4c00bb48c3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8277}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f408fedf-e198-46cd-a853-e26f9c59f2cb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["96bd75e2-e5bf-423d-8fc3-ffc1bc4e811c"]
+  }],
+  "urls": [],
+  "plugins": []
+}
